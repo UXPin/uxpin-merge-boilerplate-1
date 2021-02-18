@@ -14,9 +14,9 @@ Button.propTypes = {
   onClick: PropTypes.func,
   disabled: PropTypes.bool,
   type: PropTypes.oneOf(['primary', 'secondary', 'success', 'error', 'warning']),
-  mode: PropTypes.any,
+  mode: PropTypes.oneOf(['filled', 'ghost', 'minimal', 'flat']),
   /** @uxpinignoreprop */
-  title: PropTypes.string,
+  title: PropTypes.any,
   /** @uxpinignoreprop */
   background: PropTypes.string,
   /**
